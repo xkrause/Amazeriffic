@@ -1,30 +1,35 @@
-header, main, footer {
-min-width: 855px;
+header, main {
+min-width: 1340px;
 }
 
-body {
-    background: #f9e993;
-}
-
-header .container, main .container, footer .container {
-    max-width: 855px;
-}
-
-header {
+header, h1 {
     background: white;
     overflow: auto;
+    padding-left: 100px;
 }
 
 header h1 {
     float: left;
-    width: 570px;
+    font-size:50px;
 }
 
-header nav {
+header, nav {
     float: right;
-    width: 285px;
 }
 
-main {
+main, h2, h3, h4, h5, p, ul {
     background: white;
+    padding-left: 100px;
+}
+
+img
+{
+    position:absolute;
+    left: 800px;
+    top: 100px;
+}
+
+footer, .Sitemap, h5, p
+{
+    background: grey;
 }
